@@ -25,7 +25,7 @@ Brave's built-in Memory Saver will eventually sleep inactive tabs on its own, BU
 
 When you click a sleeping tab it reloads from cache or network, same as any normal page load. Brave shows its native grey dashed circle on discarded tabs — the extension doesn't need to add any visual indicator.
 
-The Protect feature sets `autoDiscardable: false` on a tab, which tells Brave's Memory Saver to leave it alone.
+The Protect feature sets `autoDiscardable: false` on a tab, which tells Brave's Memory Saver to leave it alone. This means that manually putting the protected tab to sleep still works. To unprotect a tab, just click on the "protected" badge.
 
 ---
 
