@@ -35,7 +35,7 @@ Not on the Chrome Web Store yet. Load it manually:
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/YOUR_USERNAME/sleep-tab.git
+   git clone https://github.com/BeyremHF/sleep-tab.git
    ```
 2. Go to `brave://extensions`
 3. Turn on **Developer mode** (top right)
