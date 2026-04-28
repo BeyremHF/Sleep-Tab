@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Sleep Tab",
+  "version": "1.0.0",
+  "description": "Manually discard tabs to free memory on demand. Includes tab group support and a protect/whitelist system.",
+  "minimum_chrome_version": "89",
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Sleep Tab",
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}
